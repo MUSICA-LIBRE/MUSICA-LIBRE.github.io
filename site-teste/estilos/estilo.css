@@ -1,0 +1,57 @@
+p       {
+    color: rgb(17, 16, 16); /*Trocar color da fonte*/
+    }
+    html {font-size: 15px; /* px significa "pixels": o tamanho da fonte base é agora de 15 pixels */ 
+        font-family: "Open Sans", sans-serif; /* este deve ser o nome da fonte que você obteve no Google Fonts */ 
+      }
+      h1 {
+        font-size: 35px; /* o tamanho da fonte base é agora de 35 pixels */ 
+        text-align: center;
+      }
+      h2 {
+        font-size: 30px; /* o tamanho da fonte base é agora de 25 pixels */
+        line-height: 0;
+        text-align: center;
+      }
+      h3 {
+        font-size: 17px; /* o tamanho da fonte base é agora de 25 pixels */
+        line-height: 0;
+        text-align: center;
+      }
+      p, li {
+        font-size: 16px; /* o tamanho da fonte base é agora de 20 pixels */
+        line-height: 1,5; /* altura da linha agora é de 1,5 */
+        letter-spacing: 1px; /* espaçamento entre letras é de 1 pixel */
+      }
+      html {
+        background-color: #0987fd; /* Essa regra define uma cor de fundo para toda a página */
+      }
+      body {
+        width: 1200px; /* Isso força o corpo a ter 600 pixels de largura */
+        margin: 0 auto; /* Margem 0 arriba e embaixo, lados iguais */
+        background-color: #ffe0b5; /* color do corpo */
+        padding: 0 20px 20px 20px; /* preenchimento */
+        border: 5px solid black; /* borda do corpo */
+      }
+      h1 {
+        margin: 0; /* Título */
+        padding: 20px 0;    
+        color: #00539F;
+        text-shadow: 3px 3px 4px black;
+      }
+      h2 {
+        margin: 0; /* Subtítulo */
+        padding: 20px 0;    
+        color: #00539F;
+        text-shadow: 3px 3px 4px black;
+      }
+      h3 {
+        margin: 0; /* Subtítulo */
+        padding: 20px 0;    
+        color: #00539F;
+        text-shadow: 2px 2px 4px black;
+      }
+      img {
+        display: block; /* para aplicar margens a uma imagem */
+        margin: 20 auto;
+      }
